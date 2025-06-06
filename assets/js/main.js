@@ -246,7 +246,7 @@
 const tooltip = document.getElementById("global-tooltip");
 
 // Attach event listeners to all .skill divs
-document.querySelectorAll(".skill").forEach((skill) => {
+document.querySelectorAll(".tech").forEach((skill) => {
   skill.addEventListener("mouseenter", (e) => {
     const text = skill.getAttribute("data-tooltip");
     tooltip.textContent = text;

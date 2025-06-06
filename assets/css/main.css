@@ -892,11 +892,6 @@ section,
 # Skills Section
 --------------------------------------------------------------*/
 
-.skill {
-  position: relative;
-  display: inline-block;
-}
-
 .logo {
   width: 60px;
   height: 60px;
